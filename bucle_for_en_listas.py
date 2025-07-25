@@ -12,3 +12,5 @@ for nombre in nombres:
 for nombre in nombres:
     print(f"{nombre.title()}, que gran guerrero eres")
     print(f"yo estoy esperando ver tu proxima batalla, {nombre.title()}.\n")
+print("Gracias a ustedes por ser tan valiente")   
+print("esto es el fina y con prueba de commit") 
