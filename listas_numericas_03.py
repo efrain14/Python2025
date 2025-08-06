@@ -1,3 +1,4 @@
+"""Listas numericas"""
 jugadores = ["carlos", "miguel", "luis", "juan", "pedro"]
 print(jugadores[0:3])
 print(jugadores[1:4])

@@ -1,3 +1,4 @@
+"""copia de listas"""
 mis_comidas = ["pizza", "arepas", "cachapas", "pasta", "arroz"]
 comidas_mis_amigos = mis_comidas[:]
 print("mis comidas favoritas son:")
