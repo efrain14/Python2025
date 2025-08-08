@@ -14,4 +14,11 @@ for ingrediente_adiciona1 in ingredientes_adicionales2:
     else:
         print(f"Adicional {ingrediente_adiciona1}.")
 print("\n has finalizado el pedido de tu pizza!")
-# pagina 177 y 86
+print("\n")
+ingredientes_adicionales = []
+if ingredientes_adicionales:
+    for ingrediente_adicional in ingredientes_adicionales:
+        print(f"Adicional de {ingrediente_adicional}.")
+    print("terminaste de hacer tu pedido")
+else:
+    print("estas seguro de querer una pizza simple?")
