@@ -1,4 +1,4 @@
-"""listas vacias"""
+"""pruebelo usted mismo 5-9 listas vacias"""
 nombres = []
 if nombres:
     for nombre in nombres:
