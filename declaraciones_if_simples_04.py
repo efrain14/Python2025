@@ -29,3 +29,7 @@ elif edad > 20 and edad <= 65:
     print("la persona es un adulto")
 else:
     print("la persona es una persona mayor")
+
+print("\n")
+
+frutas_favoritas = ["manzanas", "patilla", "melon", "pera", "fresas", "kiwi", "aguacate"]

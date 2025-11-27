@@ -6,3 +6,15 @@ if "pepperoni" in ingredientes_extras:
     print("adicional de pepperoni")
 if "queso" in ingredientes_extras:
     print("adicional de queso")
+    
+    print("\n")
+    
+
+ingredientes_extras1 =["champinones", "pepperoni", "queso", "anchoas"]
+if "champinones" in ingredientes_extras:
+    print("adicional de champinones")
+elif "pepperoni" in ingredientes_extras:
+    print("adicional de pepperoni")
+elif "queso" in ingredientes_extras:
+    print("adicional de queso")    
+print("As terminado de armar tu pizza")    
