@@ -1,4 +1,4 @@
-"""Comprobacion de Nombre de usuario"""
+"""pruebelo usted mismo 5-10 Comprobacion de Nombre de usuario"""
 #Haga lo siguiente para crear un programa que simule cómo los sitios web
 # garantizan que todos tengan un nombre de usuario único.
 

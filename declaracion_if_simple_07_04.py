@@ -1,4 +1,4 @@
-"""Numeros ordinales"""
+"""pruebelo usted mismo 5-11  Numeros ordinales"""
 #Los números ordinales indican su posición en una lista, como 1.º o 2.º. La
 # mayoría de los números ordinales terminan en th , excepto 1, 2 y 3.
 
