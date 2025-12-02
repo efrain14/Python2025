@@ -3,3 +3,15 @@
 
 alien_0 = {"x_posicion" : 0, "y_posicion" : 25, "velocidad" : "mediana"}
 print(f"posicion original : {alien_0['x_posicion']}")
+
+# mover el alien a la derecha
+# determina ahora la velocidad del alien vasado en su velocidad actual
+
+if alien_0["velocidad"] == "lenta":
+    x_incrementa = 1
+elif alien_0["velocidad"] == "mediana":
+    x_incrementa = 2
+else: x_incrementa = 3
+
+alien_0["x_posicion"] = alien_0["x_posicion"] + x_incrementa
+print (f'nueva posicion: {alien_0["x_posicion"]}')
