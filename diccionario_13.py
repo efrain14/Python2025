@@ -11,7 +11,7 @@ for alien in aliens[0:3]:
         alien["color"] = "amarillo"
         alien["velocidad"] = "media"
         alien["puntos"] = 10
-    elif alien["color"] == "verde":
+    elif alien["color"] == "                                        verde":
         alien["color"] = "rojo"
         alien["velocidad"] = "rapida"
         alien["puntos"] = 15
