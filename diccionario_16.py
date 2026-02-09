@@ -23,8 +23,8 @@ usuario = {
         "lugar" : "paris",},
 }
 
-for usuario, usua_info in usuario.items() :
-    print(f"\nUsuarionombre : {usuarionombre}")
+for usuarionombre, usua_info in usuario.items() :
+    print(f"\nusuarionombre : {usuarionombre}")
     nombre_completo = f"{usua_info ['nombre']} {usua_info['apellido']}"
     lugar = usua_info['lugar']
     

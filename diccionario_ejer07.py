@@ -1,0 +1,1 @@
+"""6-7. Personas: Comience con el programa que escribi6 para el Ejercicio 6-1 (pågina 98). Cree dos diccionarios nuevos que representen a diferentes personas y almacene los tres diccionarios en una lista llamada people. Recorre tu lista de personas. A medida que recorra la lista, imprima todo lo que sepa sobre cada persona."""
