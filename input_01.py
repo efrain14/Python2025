@@ -1,0 +1,5 @@
+nombre = input("por favor escribe tu nombre ")
+apellido = input("por favor escribe tu primer apellido ")
+print(f"\nHola, {nombre} {apellido}")
+edad = input("favor de colocar tu edad")
+print("tienes ",edad," años")
