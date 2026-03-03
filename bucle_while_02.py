@@ -10,4 +10,5 @@ prompt += "\n Ingrese 'salir' para finalizar el programa. "
 mensaje = ""
 while mensaje != 'salir' :
     mensaje = input(prompt)
-    print(mensaje)
+    if mensaje != "salir" :
+        print(mensaje)
