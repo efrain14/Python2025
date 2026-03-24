@@ -3,10 +3,14 @@ escriba un bucle que solicite al usuario que ingrese una serie de ingredientes p
 
 prompt = "\nIngrese un ingrediente de la pizza:  "
 
-prompt += "\nEscriba Salir para terminar de agrgar los ingredientes "
+prompt += "\nEscriba Salir para terminar la orden "
 
-ingredientes = ""
-while ingredientes != "Salir":
+while  True:
     ingredientes = input(prompt)
-    if ingredientes != "Salir":
+    
+    if ingredientes.lower() == "Salir":
+        break
+    else:
         print(f"Vas a agrgarle {ingredientes} a tu pizza ")
+        
+print("Gracias por tu pedido")
