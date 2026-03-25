@@ -1,6 +1,6 @@
 # Solución al ejercicio 7-4: Ingredientes de pizza
 prompt = "\nPor favor, ingresa un ingrediente para tu pizza:"
-prompt += "\n(Escribe 'quit' para terminar la orden) "
+prompt += "\n(Escribe 'salir' para terminar la orden) "
 
 while True:
     ingredientes = input(prompt)

@@ -8,9 +8,9 @@ prompt += "\nEscriba Salir para terminar la orden "
 while  True:
     ingredientes = input(prompt)
     
-    if ingredientes.lower() == "Salir":
-        break
-    else:
+    if ingredientes != "Salir":
         print(f"Vas a agrgarle {ingredientes} a tu pizza ")
+    else:
+        break
         
 print("Gracias por tu pedido")

@@ -7,7 +7,7 @@ edad y luego les digas el coste de su entrada al cine."""
 
 prompt = "\nque edad tienes "
 
-prompt += "\nEscribe salir cuando allas terminado  "
+prompt += "\nEscribe salir cuando ayas terminado  "
 
 # BUCLE INFINITO PARA PREGUNTAR EDADES CONTINUAMENTE
 while True:
@@ -28,3 +28,4 @@ while True:
         print(" El precio de tu entrada es de $15")   
         
     print("-"*30)     # SEPARADOR VISUAL
+    print("Disfruta de la Pelicula")
