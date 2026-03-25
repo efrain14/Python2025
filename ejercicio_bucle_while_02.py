@@ -7,5 +7,24 @@ edad y luego les digas el coste de su entrada al cine."""
 
 prompt = "\nque edad tienes "
 
-prompt += "\nEscribe salir cuando allas terminado"
+prompt += "\nEscribe salir cuando allas terminado  "
 
+# BUCLE INFINITO PARA PREGUNTAR EDADES CONTINUAMENTE
+while True:
+# CONDICION PARA CERRAR EL PROGRAMA    
+    edad = input(prompt)
+    if edad.lower() == "salir" :
+        break
+    
+# CONVERTIMOS LA EDAD EN UN NUMERO ENTERO
+    edad = int(edad)
+    
+# LOGICA DE LOS PRECIOS POR EDADES
+    if edad < 3:
+        print(" La entrada es gratuita para menores de 3 años,")
+    elif edad <=  13 :
+        print("El precio de tu entrada es de $ 10")
+    else:
+        print(" El precio de tu entrada es de $15")   
+        
+    print("-"*30)     # SEPARADOR VISUAL
