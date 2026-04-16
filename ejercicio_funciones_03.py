@@ -5,6 +5,7 @@ Llame a la funciån segunda vez utilizando argumentos de palabras clave."""
 
 def elabora_camiseta(talla, texto) :
     """muestra la talla y una oracion de una camiseta"""
-    talla = input("escriba la talla de la camiseta a elaborar ")
-    texto = input("escriba la frace a imprimer en la camiseta")
-    print()
+    
+    print(f"\nla talla de la camisa es {talla}")
+    print(f"el texto que llevara la camiseta es {texto}")
+elabora_camiseta(talla= "Media", texto= "'i love python'")
