@@ -5,4 +5,7 @@ def nombre_formateado(primer_nombre, apellido) :
     """funcion que formatea un nombre completo"""
     nombre_completo = f"{primer_nombre} {apellido}"
     return nombre_completo.title()
-nombre_formateado("junior", "calderon")
+
+trabajador = nombre_formateado("junior", "calderon")
+print(trabajador)
+
