@@ -9,18 +9,18 @@ se almacenan en una lista y, una vez impresos, se mueven a una
 lista separada. El siguiente codigo hace esto sin usar funciones:"""
 
 # Comienza con algunos diseños que necesiten ser impresos.
-disenos_porimprimir = ["case de cel", "vaso", "taza", "sello"]
-modelos_completos = []
+unprinted_designs = ["case de cel", "vaso", "taza", "sello"]
+completed_models = []
 
 # Simula la impresión de cada diseño hasta que no quede ninguno.
 # Mueve cada diseño a la sección de modelos completados después de imprimirlo.
 
-while disenos_porimprimir :
-    diseno_actual = disenos_porimprimir.pop()
-    print(f"Modelos Impresos : {diseno_actual}")
-    modelos_completos.append(diseno_actual)
+while unprinted_designs :
+    current_desings = unprinted_designs.pop()
+    print(f"Modelos Impresos : {current_desings}")
+    completed_models.append(current_desings)
     
 # muestra todos los modelos completados
 print("\nlos siguientes modelos fueron impresos:")
-for modelos_completo in modelos_completos:
-    print(modelos_completo)
+for completed_model in completed_models:
+    print(completed_model)
