@@ -13,4 +13,4 @@ def hacer_pizza(tamano, *toppings):
     for topping in toppings:
         print(f"- {topping}")
 hacer_pizza("extra familiar", "champiñones", "aceitunas", "salami", "extra de queso")
-hacer_pizza("normal", "peperoni")
+hacer_pizza("normal", "peperoni", "queso parmesano", "albahaca", "salsa")

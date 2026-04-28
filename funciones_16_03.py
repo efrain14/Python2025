@@ -1,4 +1,4 @@
-""" FUNCIONES VIENE DE EL CODIGO ANTERIRO 
+""" FUNCIONES VIENE DE EL CODIGO ANTERIOR
 Podemos reorganizar este código escribiendo dos funciones, cada
 una de las cuales realiza un trabajo específico. La mayor parte del
 código no cambiará; simplemente lo estamos estructurando con más
